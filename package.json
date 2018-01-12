@@ -1,0 +1,30 @@
+{
+  "name": "addhoc-branch-bot",
+  "version": "1.0.0",
+  "description": "",
+  "author":
+    "Md_ZubairAhmed <ahmedzubair216@gmail.com> (https://github.com/adhoc-branch)",
+  "license": "ISC",
+  "repository": "https://github.com/M-ZubairAhmed/addhoc-branch.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "start-nodemon": "nodemon --exec npm start",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "localtunnel": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  },
+  "standard": {
+    "env": ["jest"]
+  }
+}
